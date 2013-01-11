@@ -47,7 +47,7 @@ A year will be a leap year if it is divisible by 4 but not by 100. If a year is 
 
 In Actionscript 3.0 that looks like this:
 
-<pre>
+<pre><code>
 function getIsLeapyear(year:int):Boolean{
 	var result:Boolean = false;
 	var divBy4:Boolean = (year % 4 == 0);
@@ -68,7 +68,7 @@ function getIsLeapyear(year:int):Boolean{
 	}
 	return result;
 }
-</pre>
+</code></pre>
 
 
 #### StageAwareSprite (Jan 2010)
