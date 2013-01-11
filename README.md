@@ -6,9 +6,9 @@ This is Flash code from the a few years back. I'm archiving it here as I'm takin
 
 Here’s a calculator utility package which contains a few handy Mathematical shortcuts.
 
-A lot of it came out of some old game code, such as getIsInRange($p1,$p2,range) which returns true if position1 is within the specified range of position2. $p1 and $p2 are instances of PositionObject which contains coordinates.
+A lot of it came out of some old game code, such as <code>getIsInRange($p1,$p2,range)</code> which returns true if position1 is within the specified range of position2. $p1 and $p2 are instances of <code>PositionObject</code> which contains coordinates.
 
-PositionObject supports 1, 2 or 3 dimensions, but getIsInRange only works with 1 or 2-dimensional PositionObjects at the moment – i.e. z-distance is ignored. I’ll update the maths to work in 3D at some point!
+<code>PositionObject</code> supports 1, 2 or 3 dimensions, but <code>getIsInRange</code> only works with 1 or 2-dimensional PositionObjects at the moment – i.e. z-distance is ignored. Perhaps I’ll update the maths to work in 3D at some point!
 
 ###### Files
 - com.aderowbotham.utils.calc.CalcTools
